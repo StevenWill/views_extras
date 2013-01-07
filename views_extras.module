@@ -1,0 +1,16 @@
+<?php
+/**
+ * @file
+ * Views Extras Module 
+ */
+
+/**
+ * Implement hook_views_api().
+ */
+function views_extras_views_api() {
+  return array(
+    'api' => 2,
+    'path' => drupal_get_path('module', 'views_extras'),
+  );
+}
+

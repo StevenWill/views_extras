@@ -1,0 +1,5 @@
+name = "Views Extras"
+description = "Extra customization for views including extra filters."
+core = 6.x
+package = Views
+dependencies[] = views
